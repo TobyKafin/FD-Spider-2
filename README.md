@@ -70,3 +70,5 @@ product_data_with_units_test.csv   # Output CSV file
 ## Limitations
 - The script assumes a specific HTML structure for extracting product details (e.g., data-testid attributes). Modify the extract_product_details_from_html function if the website structure changes.
 - Only .xml files in the specified folder are processed.
+- Saving all of the HTMLs takes a lot of space, can add code to delete HTML after information extracted to csv.
+- FD servers block after a few iterations. Try implementing rotating proxies. 
