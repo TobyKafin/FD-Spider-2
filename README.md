@@ -23,6 +23,9 @@ The script requires the following Python libraries:
 Install the necessary libraries using:
 `pip install playwright beautifulsoup4`
 
+Run script with:
+python spider4.py
+
 ## Playwright Setup
 Before running the script, install the Playwright browsers:
 `playwright install`
