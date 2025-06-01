@@ -62,10 +62,10 @@ If a URL fails, the error is logged, and the script continues with the next URL.
 
 ## Example Folder Structure
 project/
-├── script_name.py              # The Python script
-├── fd_xmls/                    # Folder containing XML sitemap files
-├── saved_htmls/                # Folder where HTML files will be saved
-└── product_data_with_units_test.csv   # Output CSV file
+script_name.py              # The Python script
+fd_xmls/                    # Folder containing XML sitemap files
+saved_htmls/                # Folder where HTML files will be saved
+product_data_with_units_test.csv   # Output CSV file
 
 ## Limitations
 - The script assumes a specific HTML structure for extracting product details (e.g., data-testid attributes). Modify the extract_product_details_from_html function if the website structure changes.
